@@ -1,0 +1,476 @@
+@media(min-width:992px) and (max-width:1199px) {
+    .banner_head h1 {
+        font-size: 38px;
+        padding-top: 60px;
+    }
+
+    .banner_head h1 span {
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+
+    .banner_btn a {
+        font-size: 30px;
+        padding: 10px 10px;
+        margin-top: 36px;
+    }
+
+    .test_one p {
+        padding: 20px 0px 0 0;
+    }
+
+    #manu_part {
+        padding: 238px 0 500px;
+    }
+
+    .booking_inner_btn button {
+        margin-top: 50px;
+    }
+
+    #backgrnd {
+        padding: 300px 0;
+    }
+
+    .footer_head p {
+        padding-right: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media(min-width:768px) and (max-width:991px) {
+    .main_menu {
+        height: 0;
+        text-align: center;
+        z-index: 999;
+    }
+
+    #navbarSupportedContent {
+        background: #AFC67B;
+    }
+
+    .main_menu svg:not(:root).svg-inline--fa {
+        color: #AFC67B;
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        color: #000;
+        font-weight: 500;
+        z-index: 999;
+        margin-left: 0 !important;
+    }
+
+    .logo {
+        padding-left: 10px;
+    }
+
+    .pagla {
+        text-align: center;
+    }
+
+    .test_one h3 {
+        font-size: 25px;
+        letter-spacing: 0px;
+        padding-top: 20px;
+    }
+
+    .test_one p {
+        font-size: 14px;
+        padding: 20px 0 0;
+    }
+
+    .plate_head_inner h4 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .plate_head_inner p {
+        font-size: 13px;
+        padding: 9px 0px 0 0px;
+    }
+
+    .plate_head p {
+        padding-bottom: 40px;
+    }
+
+    .menu_inner_text ul li p {
+        padding-right: 0px;
+    }
+
+    .menu_pad {
+        padding: 40px 0 0px !important;
+    }
+
+    #manu_part {
+        padding: 238px 0 300px;
+    }
+
+    .booking_inner_2 input {
+        width: 210px;
+    }
+
+    .booking_inner select {
+        width: 210px;
+    }
+
+    .booking_inner_btn button {
+        padding: 4px 60px;
+        margin-top: 45px;
+    }
+
+    #backgrnd {
+        padding: 300px 0;
+    }
+
+    .menu_card_txt h5 {
+        font-size: 13px;
+    }
+
+    .menu_card_txt h6 {
+        font-size: 15px;
+        padding: 10px 0 5px;
+    }
+
+    .menu_card_txt p {
+        font-size: 12px;
+        padding-right: 0px;
+    }
+
+    .menu_card_txt a {
+        font-size: 12px;
+        padding: 8px 14px;
+        margin-top: 10px;
+    }
+
+    .footer_head p {
+        padding-right: 0px;
+    }
+
+}
+
+
+
+@media(min-width:576px) and (max-width:767px) {
+    .main_menu {
+        height: 0;
+        text-align: center;
+        z-index: 999;
+    }
+
+    #navbarSupportedContent {
+        background: #AFC67B;
+    }
+
+    .main_menu svg:not(:root).svg-inline--fa {
+        color: #AFC67B;
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        color: #000;
+        font-weight: 500;
+        z-index: 999;
+        margin-left: 0 !important;
+    }
+
+    .logo {
+        padding-left: 10px;
+    }
+
+    .pagla {
+        text-align: center;
+    }
+
+    .banner_btn a {
+        font-size: 28px;
+    }
+
+    #banner_part {
+        padding: 140px 0 140px;
+    }
+
+    .test_one p {
+        padding: 20px 30px 20px 0;
+    }
+
+    #test_part {
+        padding: 80px 0;
+    }
+
+    .plate_head_inner h5 {
+        padding-bottom: 30px;
+    }
+
+    .plate_head_inner h4 {
+        padding-top: 30px;
+    }
+
+    .hudai {
+        padding-bottom: 50px;
+    }
+
+    #manu_part {
+        padding: 238px 0 300px;
+    }
+
+    #backgrnd {
+        padding: 300px 0;
+    }
+
+    .footer_head_01 h4 {
+        padding-top: 20px;
+    }
+
+    .footer_head_01 ul {
+        padding-top: 10px;
+    }
+
+    .footer_head_01 ul li {
+        padding-top: 10px;
+    }
+
+    #footer_part {
+        text-align: center;
+    }
+
+    .footer_head p {
+        padding-right: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:575px) {
+
+    .main_menu {
+        height: 0;
+        text-align: center;
+        z-index: 999;
+    }
+
+    #navbarSupportedContent {
+        background: #AFC67B;
+    }
+
+    .main_menu svg:not(:root).svg-inline--fa {
+        color: #AFC67B;
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        color: #000;
+        font-weight: 500;
+        z-index: 999;
+        margin-left: 0 !important;
+    }
+
+    .logo {
+        padding-left: 10px;
+    }
+
+    .banner_head h1 {
+        font-size: 32px;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .banner_head h1 span {
+        font-size: 46px;
+        letter-spacing: 2px;
+    }
+
+    .banner_btn a {
+        font-size: 28px;
+        padding: 5px 5px;
+        text-align: center;
+    }
+
+    .pagla {
+        text-align: center;
+    }
+
+
+    /*** ============ Banner Part =============***/
+    #banner_part {
+        padding: 140px 0 100px;
+    }
+
+    .sec_head h3 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    #sec_banner {
+        padding: 60px 0;
+    }
+
+    .sec_head p {
+        font-size: 14px;
+        padding-top: 18px;
+        text-align: center;
+    }
+
+    #test_part {
+        background: #4e5342;
+        padding: 60px 0;
+    }
+
+    .test_one p {
+        color: #eaeaea;
+        font-size: 14px;
+        font-weight: 200;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 26px;
+        padding: 0px 0px 20px 0;
+    }
+
+    .plate_head p {
+        font-size: 26px;
+        padding-bottom: 40px;
+    }
+
+    .plate_head_inner p {
+        font-size: 14px;
+        padding: 6px 30px 0 25px;
+    }
+
+    .plate_head_inner h5 {
+        padding-bottom: 20px;
+    }
+
+    .plate_head_inner h4 {
+        padding-top: 30px;
+    }
+
+    .hudai {
+        padding-bottom: 30px;
+    }
+
+    #slider_part {
+        padding: 60px 0;
+    }
+
+    .slider_head h3 {
+        font-size: 23px;
+    }
+
+    .slider_head p {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+
+    .sushi_slider .slick-dots li button {
+        width: 15px;
+        height: 15px;
+    }
+
+    .sushi_slider .slick-dots {
+        bottom: -26px;
+    }
+
+    #manu_part {
+        padding: 238px 0 300px;
+    }
+
+    .booking_inner_btn button {
+        margin-top: 46px;
+    }
+
+    #backgrnd {
+        padding: 250px 0;
+    }
+
+    #descover_part {
+        padding: 60px 0;
+    }
+
+    .plate_head p {
+        font-size: 22px;
+        line-height: 15px;
+        padding-top: 0px;
+    }
+
+    .padd_ex {
+        padding-top: 28px;
+    }
+
+    #social_part {
+        padding: 60px 0;
+    }
+
+    .social_img p {
+        font-size: 14px;
+        padding: 20px 0px 0;
+    }
+
+    .social_icon_02 ul li a {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    .social_icon_02 ul li {
+        margin: 15px 5px 0 5px;
+    }
+
+    #footer_part {
+        padding: 60px 0;
+    }
+
+    .footer_head p {
+        font-size: 14px;
+        padding-top: 7px;
+        padding-right: 0px;
+    }
+
+    .footer_head_01 h4 {
+        padding-top: 20px;
+    }
+
+    .footer_head_01 ul {
+        padding-top: 5px;
+    }
+
+    .footer_head_01 ul li {
+        font-size: 13px;
+    }
+
+
+
+}

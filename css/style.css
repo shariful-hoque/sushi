@@ -1,0 +1,581 @@
+/*  ============ common css start ======*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/*  ============ common css end ======*/
+
+/* ============= Nav bar start ======== */
+
+
+.main_menu .navbar-nav .nav-item .nav-link {
+    color: #afc67b;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+
+}
+
+/* ============= Nav bar End ======== */
+
+/* ============= Banner Part start ======== */
+
+#banner_part {
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0 242px;
+    overflow: hidden;
+    margin-top: -60px;
+}
+
+.banner_head h1 {
+    color: #afc67b;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 80px;
+}
+
+.banner_head h1 span {
+    display: block;
+    font-weight: 700 !important;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.banner_btn a {
+    color: #afc67b;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(93, 105, 66, 0.50);
+    padding: 10px 10px;
+    margin-top: 50px;
+}
+
+/* ============= Banner Part End ======== */
+
+/* =============Sec Banner Part Start ======== */
+#sec_banner {
+    background: url(../img/01.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.sec_head h3 {
+    color: #afc67b;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Indie Flower', cursive;
+}
+
+.sec_head p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+}
+
+/* =============Sec Banner Part End ======== */
+
+/* =============Third Part Start ======== */
+
+#test_part {
+    background: #4e5342;
+    padding: 100px 0;
+}
+
+.test_one h3 {
+    color: #eaeaea;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    padding-top: 23px;
+}
+
+.test_one p {
+    color: #eaeaea;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+    padding: 20px 30px 0 0;
+}
+
+.test_one ul {
+    display: flex;
+}
+
+.test_one ul li:nth-child(2),
+.test_one ul li:nth-child(3) {
+    padding-left: 10px;
+}
+
+/* =============Third Part End ======== */
+
+/* =============Plate Part Start ======== */
+
+#plate_part {
+    background: #212121;
+    padding: 80px 0;
+}
+
+.plate_inner {
+    background: #4e5342;
+}
+
+.plate_head {
+    text-align: center;
+}
+
+.plate_head h2 {
+    color: #afc67b;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    padding-top: 60px;
+}
+
+.plate_head p {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+    padding-top: 10px;
+    padding-bottom: 67px;
+}
+
+.plate_head_inner h4 {
+    color: #afc67b;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.plate_head_inner p {
+    color: #e8e8e8;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px 30px 0 25px;
+}
+
+.plate_head_inner h5 {
+    color: #e8e8e8;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* =============Plate Part End ======== */
+
+/* =============Slider Part Start ======== */
+
+#slider_part {
+    background: #4c5242;
+    padding: 100px 0;
+}
+
+.one {
+    margin: 0 auto;
+    display: block;
+}
+
+.slider_head h3 {
+    text-align: center;
+    color: #afc67b;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Indie Flower', cursive;
+}
+
+.slider_head p {
+    color: #dcdcdb;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+
+.sushi_slider .slick-dots {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+}
+
+.sushi_slider .slick-dots li button {
+    font-size: 0;
+    width: 20px;
+    height: 30px;
+    background: #AFC67B;
+    border: 0;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* =============Slider Part End ======== */
+
+/* =============Manu Part Start ======== */
+
+#manu_part {
+    background: url(../img/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 238px 0 989px;
+}
+
+.manu_inner {
+    padding: 60px 0;
+    background: #4c5242;
+}
+
+.extra h2 {
+    padding-top: 0 !important;
+}
+
+.extra p {
+    padding-bottom: 0 !important;
+}
+
+.menu_inner_text ul {
+    display: flex;
+    padding-top: 50px;
+}
+
+.menu_inner_text ul li h4 {
+    padding-left: 20px;
+    color: #e7e7e7;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.menu_inner_text ul li p {
+    padding-left: 20px;
+    color: #e7e7e7;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 60px;
+    padding-top: 10px;
+}
+
+.menu_pad {
+    padding: 70px 0 35px !important;
+}
+
+/* =============Manu Part End ======== */
+
+/* ============= Booking Part Part Start ======== */
+
+#booking_part {
+    background: #212121;
+    padding: 70px 0;
+}
+
+.exception h2 {
+    color: #fff !important;
+}
+
+.booking_inner {
+    text-align: center;
+}
+
+.booking_inner label {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.booking_inner select {
+    border: 2px solid #fff;
+    width: 233px;
+    height: 28px;
+    background: transparent;
+    color: #677567;
+    border-radius: 10px;
+}
+
+.booking_inner select option {
+    background: #212121;
+    color: #677567;
+}
+
+.booking_inner_2 {
+    padding-top: 30px;
+}
+
+.booking_inner_2 input {
+    border: 2px solid #fff;
+    width: 233px;
+    height: 28px;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.pera {
+    padding-top: 40px;
+}
+
+.booking_inner_btn {
+    text-align: center;
+}
+
+.booking_inner_btn button {
+    padding: 8px 80px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+/* ============= Booking Part Part End ======== */
+
+/* =============Background Part Start ======== */
+#backgrnd {
+    background: url(../img/13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 432px 0;
+}
+
+/* =============Background Part End ======== */
+
+/* =============Descover Part Start ======== */
+
+#descover_part {
+    background: #383b32;
+    padding: 80px 0;
+}
+
+.menu_card_txt {
+    background: #e7e7e7;
+    padding: 25px 0 25px 22px;
+}
+
+.menu_card_txt h5 {
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu_card_txt h6 {
+    color: #555;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 13px 0 5px;
+}
+
+.menu_card_txt p {
+    color: #4f4e4e;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 60px;
+}
+
+.padd_ex {
+    padding-top: 50px;
+}
+
+.menu_card_txt a {
+    color: #555;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: #E04242;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+/* =============Descover Part End ======== */
+
+/* =============Social Part Start ======== */
+
+#social_part {
+    background: #212121;
+    padding: 80px 0;
+}
+
+.social_img {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mid {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social_img p {
+    color: #aac078;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+    padding: 20px 30px 0;
+}
+
+.social_img h4 {
+    color: #afc67b;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 20px;
+}
+
+.social_icon_02 {
+    text-align: center;
+}
+
+.social_icon_02 ul li {
+    display: inline-block;
+    margin: 20px 10px 0 10px;
+}
+
+.social_icon_02 ul li a {
+    width: 50px;
+    height: 50px;
+    background: #fff !important;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    color: #212121;
+    font-size: 18px;
+}
+
+/* =============Social Part End ======== */
+
+/* =============Footer Part Start ======== */
+
+#footer_part {
+    background: #33362f;
+    padding: 80px 0;
+}
+
+.footer_head h4 {
+    color: #e7e7e7;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer_head p {
+    color: #e7e7e7;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+
+.footer_head_01 h4 {
+    color: #e7e7e7;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer_head_01 ul {
+    padding-top: 20px;
+}
+
+.footer_head_01 ul li {
+    color: #e7e7e7;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============Footer Part End ======== */
+
+
+/* =============Sec Banner Part Start ======== */
+/* =============Sec Banner Part End ======== */
+
+
+/* =============Sec Banner Part Start ======== */
+/* =============Sec Banner Part End ======== */
+/* =============Sec Banner Part Start ======== */
+/* =============Sec Banner Part End ======== */
